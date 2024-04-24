@@ -1,0 +1,257 @@
+* {
+    margin :0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 113px;
+}
+.logo{
+    background-image: url(./image/amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100% ;
+}
+
+.border{
+    border: solid 2px transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+.address{
+    height: 50px;
+    width: 88.64px;
+    color: #d6d6d6;
+    margin: 5px 2px 5px 0px;
+    padding: 0px 9px;
+    display: flex;
+    align-items: center;
+}
+.loca-icon{
+    height: 18px;
+    width: 15px;
+    margin: 8px 0px 0px;
+}
+
+.search{
+    box-sizing: border-box;
+    height: 60px;
+    width: 450.51px;
+    padding: 10px 4px 10px 3px;
+    align-items: center;
+    color: #0F1111;
+    display: flex;
+    border-radius: 3px;
+}
+.search-cat{
+    
+    
+    height: 40px;
+    width: 51.6px;
+    color: #0F1111;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background: #f3f3f3;
+    padding: 0px 0px 0px 5px;
+    align-items: center;
+    display: flex;
+
+}
+.categories{ 
+    box-sizing: border-box;
+    width: 50.6px;
+    height: 39px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    font-size: 21px;
+    border: none;
+}
+
+.search-bar{
+    border: none;
+    height: 39px;
+    width: 346.91px;
+    padding: 7px 0px 10px 0px;
+    
+}
+.search-space{
+    
+    border: none;
+    font-size: 21px;
+    height: 100%;
+    width: 100%;
+}
+.glass{
+    height: 40px;
+    width: 45px;
+    border: none;
+    background-color:rgb(230, 143, 62);
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    text-align:center;
+    font-size: 21px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+
+.span{
+    font-size: 12px;
+}
+.sign-second{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.search:hover{
+    border: 2px solid rgb(230, 143, 62);
+}
+
+.mini-navbar{
+    display: flex;
+    height: 39px;
+    width: 100%;
+    font-size: 14px;
+    background-color: #121f32;
+}
+
+.deal{
+    height: 28px;
+    width: 102.81px;
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    padding: 8px 9px;
+    font: 14px;
+    margin: 5px 0px 6px;
+    font-weight: 400;
+}
+
+.sign-in:hover{
+    border: 2px solid white;
+}
+
+.return:hover{
+    border: 2px solid white;
+}
+
+.cart:hover{
+    border: 2px solid white;
+}
+
+.cart i{
+    font-size: 25px;
+}
+
+.customer-service{
+    display: flex;
+    height: 28px;
+    width: 128.34px;
+    color: #ffffff;
+    text-align: center;
+    padding: 8px 9px;
+    margin: 5px 0px 6px;
+    font-weight: 400;
+}
+
+.registry{
+    height: 28px;
+    width: 69.79px;
+    padding: 8px 9px;
+    color: #ffffff;
+    margin: 5px 0px 6px;
+    font-weight: 400;
+}
+
+.gift{
+    height: 28px;
+    width: 80.99px;
+    padding: 8px 9px;
+    color: #ffffff;
+    margin: 5px 0px 6px;
+    font-weight: 400;
+}
+
+.sell{
+    height: 28px;
+    width: 41.38Spx;
+    padding: 8px 9px;
+    color: #ffffff;
+    margin: 5px 0px 6px;
+    font-weight: 400;
+}
+
+.hero-image{
+    background-image: url("./image/hero_image.jpg");
+    height: 300px;
+    width: 1500pxs;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.hero-msg{
+    height: 40px;
+    width: 1011.64px;
+    background: #f5f6f6;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 16px;
+}
+.hero-msg a{
+    color: #007185;
+}
+
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: #f3f3f3;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.content{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.content p{
+    color: #007185;
+    font-size: 20px;
+}
